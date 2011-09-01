@@ -1,0 +1,16 @@
+Installation:
+
+    git clone git://github.com/toddasmith/dotfiles.git ~/dotfiles
+
+Create symlinks:
+
+    ln -s ~/.vim ~/dotfiles/vim
+
+    ln -s ~/.vim/vimrc ~/dotfiles/vim/vimrc
+    ln -s ~/.vim/gvimrc ~/dotfiles/vim/gvimrc
+
+Switch to the `~/.vim` directory, and fetch submodules:
+
+    cd ~/.vim
+    git submodule init
+    git submodule update
