@@ -29,8 +29,11 @@ let g:mapleader = ","
 nmap <leader>w :w!<cr>
 
 " When" When vimrc is edited, reload it
-autocmd! bufwritepost vimrc source ~/.vimrc
+autocmd! bufwritepost .vimrc source ~/.vimrc
 
+" mapleader
+let mapleader=","
+nmap <leader>v :tabedit $MYVIMRC<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
